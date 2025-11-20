@@ -1,0 +1,6 @@
+# Ignore local testing files
+test_local.py
+
+# Python cache files
+__pycache__/
+*.pyc
