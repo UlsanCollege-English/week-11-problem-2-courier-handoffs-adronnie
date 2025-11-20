@@ -1,0 +1,11 @@
+[
+  "tests/test_hw02.py::test_alternative_shortest_paths_allowed",
+  "tests/test_hw02.py::test_basic_shortest_path",
+  "tests/test_hw02.py::test_branching_graph",
+  "tests/test_hw02.py::test_lengths_param[A-B-2]",
+  "tests/test_hw02.py::test_lengths_param[A-C-3]",
+  "tests/test_hw02.py::test_lengths_param[B-E-3]",
+  "tests/test_hw02.py::test_missing_node_returns_none",
+  "tests/test_hw02.py::test_s_equals_t",
+  "tests/test_hw02.py::test_unreachable_returns_none"
+]

@@ -1,5 +1,10 @@
+# temporary for local testing
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
 from hw02.main import bfs_path
+
 
 def g1():
     return {
@@ -34,10 +39,11 @@ def test_unreachable_returns_none():
     ('A','B', 2),
     ('B','E', 3),
 ])
-def test_lengths_param(general=None, s=None, t=None, expected_len=None):
+def test_lengths_param(s, t, expected_len):
     g = g1()
     p = bfs_path(g, s, t)
     assert p is not None and len(p) == expected_len
+
 
 def test_alternative_shortest_paths_allowed():
     g = {
